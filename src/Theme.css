@@ -13,12 +13,13 @@
 
     --navbar-background: #ffffff;
     --navbar-color: #7a6eaa;
+    --navbar-li-hover: #eff4f5;
     --body-background: linear-gradient( 139.73deg, rgb(229,253,255), rgb(243,239,255) );
     --search-bg:linear-gradient( 139.73deg, rgb(243,239,255) , rgb(229,253,255) );
     --movie-card-bg: #E7E7E7;
     --background: #ffffff;
     --text-primary: #000;
-
+    
     --border: #333;
   }
   
@@ -29,6 +30,7 @@
 
     --navbar-background: rgb(39 38 44);
     --navbar-color: rgb(255 255 255);
+    --navbar-li-hover: #353547;
     --body-background: linear-gradient( 139.73deg, rgb(49,61,92), rgb(61,42,84) );
     --search-bg: linear-gradient( 139.73deg, rgb(61,42,84), rgb(49,61,92) );
     --movie-card-bg: #27262C;
@@ -215,3 +217,43 @@ h3 a {
     opacity: 1;
   }
   
+  @media screen and (max-width: 600px) {
+  
+
+    .app {
+      /* padding: 4rem 2rem; */
+    }
+  
+    .search {
+      padding: 1rem 1.75rem;
+      width: 100%;
+    }
+  
+    .search input {
+      font-size: 1rem;
+    }
+  
+    .search img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .app {
+      /* padding: 4rem 1rem; */
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .container {
+      margin-top: 2rem;
+    }
+  
+    .movie {
+      width: "100%";
+      margin: 1rem;
+    }
+  }

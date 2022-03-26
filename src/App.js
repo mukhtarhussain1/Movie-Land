@@ -40,7 +40,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    searchMovies('america');
+    searchMovies('horror');
   }, []);
 
   return (
